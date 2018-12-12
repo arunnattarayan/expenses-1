@@ -97,9 +97,10 @@
     rxjs "^6.0.0"
     source-map "^0.5.6"
 
-"@angular-devkit/core@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.1.0.tgz#5374736843acc2405937ad61c2c4818fad64b72d"
+"@angular-devkit/core@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.1.3.tgz#3d82a7e99aeb6259ff941d82b65759cb1c397042"
+  integrity sha512-pGBInxmuR5DAhZ1RSfIlkv7cdgh3EDNXXea9ZObEuI9MuFsIWUKODT5oKbRrsOWM6IqwNmx68VEW+xQm2DXyJw==
   dependencies:
     ajv "6.5.3"
     chokidar "2.0.4"
@@ -114,11 +115,12 @@
     "@angular-devkit/core" "0.7.2"
     rxjs "^6.0.0"
 
-"@angular-devkit/schematics@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.0.tgz#ef89aaf48d995f3129c2673f5c82a9f88d2f8b61"
+"@angular-devkit/schematics@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.3.tgz#30d03fde5bb27d6606d9a6e055188382408670d6"
+  integrity sha512-Snmfog/n5k1PWdDaI+Top1F978vlXZFTvxHRPzlMCGhGsY+LMOpeRLVHADI+WP1q1LZ+2BjLELZVA2GP35AH8A==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
+    "@angular-devkit/core" "7.1.3"
     rxjs "6.3.3"
 
 "@angular-devkit/schematics@^0.5.4":
@@ -204,13 +206,14 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/pwa@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.11.0.tgz#8f0c003c72c3b7d626a79a1f8d905340b07075bf"
+"@angular/pwa@^0.11.3":
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.11.3.tgz#12f1e411995bea2a4d6d7865ccf0a7264f942793"
+  integrity sha512-sra69OrL0GXerC9sfkUZ94BvYoSYm96iqkAvf5lIvANWyLrX6dSFe57JfqBL7nVUZKKqkIaIqIXEuGwliA4Ipg==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
-    "@angular-devkit/schematics" "7.1.0"
-    "@schematics/angular" "7.1.0"
+    "@angular-devkit/core" "7.1.3"
+    "@angular-devkit/schematics" "7.1.3"
+    "@schematics/angular" "7.1.3"
     parse5-html-rewriting-stream "5.1.0"
     rxjs "6.3.3"
 
@@ -263,12 +266,13 @@
     "@angular-devkit/schematics" "0.7.2"
     typescript ">=2.6.2 <2.8"
 
-"@schematics/angular@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.1.0.tgz#7ff5a275be21ea020184c68837bb94637e4f47a7"
+"@schematics/angular@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.1.3.tgz#2cdbc6471358cf429fbea7ab192edc7246c87bd5"
+  integrity sha512-6Wq6vNjGTc0zmudPogTjiegtTUc0pORTCxI39iinUM+5iemMrCLYKJmYLi5mPFU4OG/Q2fnT06A3dYUorhtLkA==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
-    "@angular-devkit/schematics" "7.1.0"
+    "@angular-devkit/core" "7.1.3"
+    "@angular-devkit/schematics" "7.1.3"
     typescript "3.1.6"
 
 "@schematics/update@0.7.2":
