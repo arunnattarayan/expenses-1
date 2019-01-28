@@ -232,9 +232,10 @@
   dependencies:
     url "^0.11.0"
 
-"@ng-bootstrap/ng-bootstrap@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-3.0.0.tgz#d441172972c6b7969ff2c6e9c9c4306f300f3c61"
+"@ng-bootstrap/ng-bootstrap@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-4.0.2.tgz#333e90190eda76879a00df85d5aa031b78f7d565"
+  integrity sha512-SBsN8ORvj/WXpZGSyR2+CRkg6GCtax5+fsLKt9ImHKUVWwePVqRxiGlnxXqwNPHQ46vOdd7nDN9cwE7dfbGaAQ==
   dependencies:
     tslib "^1.9.0"
 
