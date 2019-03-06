@@ -97,11 +97,12 @@
     rxjs "^6.0.0"
     source-map "^0.5.6"
 
-"@angular-devkit/core@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.1.0.tgz#5374736843acc2405937ad61c2c4818fad64b72d"
+"@angular-devkit/core@7.3.5":
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.5.tgz#2a59a913eab358e2385f52ba28132b81435e63b3"
+  integrity sha512-J/Tztq2BZ3tpwUsbiz8N61rf9lwqn85UvJsDui2SPIdzDR9KmPr5ESI2Irc/PEb9i+CBXtVuhr8AIqo7rR6ZTg==
   dependencies:
-    ajv "6.5.3"
+    ajv "6.9.1"
     chokidar "2.0.4"
     fast-json-stable-stringify "2.0.0"
     rxjs "6.3.3"
@@ -114,11 +115,12 @@
     "@angular-devkit/core" "0.7.2"
     rxjs "^6.0.0"
 
-"@angular-devkit/schematics@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.0.tgz#ef89aaf48d995f3129c2673f5c82a9f88d2f8b61"
+"@angular-devkit/schematics@7.3.5":
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.3.5.tgz#7b007f8a86dea76e93eef007d4fb6e7d8324b7bb"
+  integrity sha512-BFCCkwRMBC4aFlngaloi1avCTgGrl1MFc/0Av2sCpBh/fdm1FqSVzmOiTfu93dehRVVL/bTrA2qj+xpNsXCxzA==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
+    "@angular-devkit/core" "7.3.5"
     rxjs "6.3.3"
 
 "@angular-devkit/schematics@^0.5.4":
@@ -204,13 +206,14 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/pwa@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.11.0.tgz#8f0c003c72c3b7d626a79a1f8d905340b07075bf"
+"@angular/pwa@^0.13.5":
+  version "0.13.5"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.13.5.tgz#650c3fa24ed148a15ac12d21f81e79ae3abc0595"
+  integrity sha512-4/ECtVAHFYw0RgrS4vil11aMa1mmoDCEzdSPOrhwHqhjDI8qy8TIyHV6o/Qhyztqjnc9gv6le5Z7yA4z8Xpu7g==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
-    "@angular-devkit/schematics" "7.1.0"
-    "@schematics/angular" "7.1.0"
+    "@angular-devkit/core" "7.3.5"
+    "@angular-devkit/schematics" "7.3.5"
+    "@schematics/angular" "7.3.5"
     parse5-html-rewriting-stream "5.1.0"
     rxjs "6.3.3"
 
@@ -263,13 +266,14 @@
     "@angular-devkit/schematics" "0.7.2"
     typescript ">=2.6.2 <2.8"
 
-"@schematics/angular@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.1.0.tgz#7ff5a275be21ea020184c68837bb94637e4f47a7"
+"@schematics/angular@7.3.5":
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.3.5.tgz#7af1cd446b051b2be3fbe59cb4ba140ec06e2d87"
+  integrity sha512-fKNZccf1l2OcDwtDupYj54N/YuiMLCWeaXNxcJNUYvGnBtzxQJ4P2LtSCjB4HDvYCtseQM7iyc7D1Xrr5gI8nw==
   dependencies:
-    "@angular-devkit/core" "7.1.0"
-    "@angular-devkit/schematics" "7.1.0"
-    typescript "3.1.6"
+    "@angular-devkit/core" "7.3.5"
+    "@angular-devkit/schematics" "7.3.5"
+    typescript "3.2.4"
 
 "@schematics/update@0.7.2":
   version "0.7.2"
@@ -431,9 +435,10 @@ ajv-keywords@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.2.0.tgz#e86b819c602cf8821ad637413698f1dec021847a"
 
-ajv@6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.3.tgz#71a569d189ecf4f4f321224fecb166f071dd90f9"
+ajv@6.9.1:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.9.1.tgz#a4d3683d74abc5670e75f0b16520f70a20ea8dc1"
+  integrity sha512-XDN92U311aINL77ieWHmqCcNlwjoP5cHXDxIxbf2MaPYuCXOHS7gHH8jktxeK5omgd52XbSTX6a4Piwd1pQmzA==
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -5349,9 +5354,10 @@ typescript@2.9.2, typescript@~2.9.1:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
-typescript@3.1.6:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
+typescript@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
+  integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
 
 "typescript@>=2.6.2 <2.8", typescript@~2.7.2:
   version "2.7.2"
